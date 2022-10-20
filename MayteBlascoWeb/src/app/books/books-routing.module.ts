@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BookInfoComponent } from '../main/books/book-info/book-info.component';
+import { BibliographyComponent } from './pages/bibliography/bibliography.component';
 
 const routes: Routes = [
   {
     path: '',
     children: [
       {
-        path: 'bookInfo',
-        component: BookInfoComponent
+        path: 'bibliography',
+        component: BibliographyComponent
       },
       {
         path: '**',
-        redirectTo: 'bookInfo'
+        redirectTo: 'bibliography'
       }
     ]
   },
