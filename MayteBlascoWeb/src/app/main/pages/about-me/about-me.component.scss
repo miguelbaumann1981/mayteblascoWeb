@@ -2,4 +2,19 @@
 
 .about-me {
    @include containerPages;
+   .content {
+      display: flex;
+      .description {
+         width: 75%;
+         padding-right: 2rem;
+         @include commonParagraph;
+      }
+      .photo {
+         width: 25%;
+         img {
+            width: 100%;
+            box-shadow: -1px -1px 4px rgb(0, 0, 0, 0.5);
+         }
+      }
+   }
 }

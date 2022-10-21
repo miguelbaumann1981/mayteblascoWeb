@@ -27,11 +27,27 @@ $blackColor: #2A2A2A;
       i {
         color: $steelColor;
       }
-      span, a {
+      span {
          color: $steelColor;
       }
    }
    .line {
       background-color: $skyColor;
+   }
+}
+
+@mixin commonParagraph {
+   p {
+      font-size: 1.1rem;
+      line-height: 2rem;
+      font-weight: 300;
+      span {
+         color: $skyColor;
+         font-style: italic;
+         font-weight: 500;
+      }
+      strong {
+         font-weight: 500;
+      }
    }
 }

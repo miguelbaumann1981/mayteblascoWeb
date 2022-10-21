@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { booksInformation } from 'src/assets/data/books.data';
+import { BookInfo } from '../../interfaces/book.interface';
 
 @Component({
   selector: 'app-bibliography',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bibliography.component.scss']
 })
 export class BibliographyComponent implements OnInit {
+
+  public booksInfo: BookInfo[] = booksInformation;
 
   constructor() { }
 

@@ -1,1 +1,19 @@
-<app-title-page></app-title-page>
+<section class="bibliography">
+   <app-title-page
+      [icon]="'w-icon-books'"
+      [title]="'Mis libros'"
+   ></app-title-page>
+   
+   <div class="summary">
+      <div class="book-card" *ngFor="let book of booksInfo">
+         <div class="image">
+            <img src="{{ book.image }}">
+         </div>
+         <div class="title">
+            <h3>{{ book.title }}</h3>
+            <h4>{{ book.publisher }}</h4>
+            <span>{{ book.year }}</span>
+         </div>
+      </div>
+   </div>
+</section>
