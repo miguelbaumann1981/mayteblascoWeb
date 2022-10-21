@@ -13,3 +13,25 @@ $blackColor: #2A2A2A;
    -o-transition: 0.3s all ease;
    transition: 0.3s all ease;
 }
+
+@mixin containerPages {
+   width: 100%;
+   min-height: 100%;
+   padding: 2rem 5rem;
+   
+}
+
+@mixin itemMenuActive {
+   background-color: #fafafa;
+   .description {
+      i {
+        color: $steelColor;
+      }
+      span, a {
+         color: $steelColor;
+      }
+   }
+   .line {
+      background-color: $skyColor;
+   }
+}

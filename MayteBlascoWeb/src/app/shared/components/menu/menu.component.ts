@@ -10,6 +10,7 @@ import { menuNav } from 'src/assets/data/menu.data';
 export class MenuComponent implements OnInit {
 
   public menuNavigation: ItemMenu[] = menuNav;
+  public active: string = '';
 
   constructor( ) { }
 

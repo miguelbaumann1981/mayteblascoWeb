@@ -6,7 +6,6 @@
    
    <main>
       <a (click)="drawer.toggle()">
-         <!-- <i class="w-icon-menu-right"></i> -->
          <i [ngClass]="drawer.opened ? 'w-icon-menu-left' : 'w-icon-menu-right'"></i>
       </a>
       <router-outlet></router-outlet>

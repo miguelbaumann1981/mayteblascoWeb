@@ -3,6 +3,7 @@
 .main-container {
    height: 100vh;
    width: 100vw;
+   // background-color: #fff;
    .sidenav {
       min-width: $sidenavWidth;
     }
@@ -14,12 +15,12 @@
          cursor: pointer;
          position: absolute;
          top: 20px;
-         left: 20px;
-         font-size: 2rem;
-         color: $steelColor;
+         left: 15px;
+         font-size: 1.5rem;
+         color: $skyColor;
          @extend %easeTransition;
          &:hover {
-            color: $skyColor;
+            color: $steelColor;
          }
       }
    }

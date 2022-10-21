@@ -49,24 +49,16 @@ nav {
             background-color: transparent;
             @extend %easeTransition;
          }
-         
+         &.item-active {
+            @include itemMenuActive;
+         }
          &:last-child {
             border-bottom: 1px solid #eee;
          }
          &:hover {
-            background-color: #f4f4f4;
-            .description {
-               i {
-                 color: $steelColor;
-               }
-               span, a {
-                  color: $steelColor;
-               }
-            }
-            .line {
-               background-color: $skyColor;
-            }
+            @include itemMenuActive;
          }
       }
    }
 }
+

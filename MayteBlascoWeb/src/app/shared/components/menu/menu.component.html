@@ -4,7 +4,7 @@
    </div>
    
    <ul>
-      <li *ngFor="let item of menuNavigation" [routerLink]="[item.link]">
+      <li *ngFor="let item of menuNavigation" [routerLink]="[item.link]" routerLinkActive="item-active">
          <div class="description">
             <i class="{{ item.icon }}"></i>
             <span>{{ item.name }}</span>

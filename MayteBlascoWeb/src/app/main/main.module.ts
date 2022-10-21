@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AwardsComponent } from './pages/awards/awards.component';
 import { InterviewsComponent } from './pages/interviews/interviews.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { TitlePageComponent } from './components/title-page/title-page.component';
 
 
 @NgModule({
@@ -15,11 +16,15 @@ import { ContactComponent } from './pages/contact/contact.component';
     HomeComponent,
     AwardsComponent,
     InterviewsComponent,
-    ContactComponent
+    ContactComponent,
+    TitlePageComponent
   ],
   imports: [
     CommonModule,
     MainRoutingModule
+  ],
+  exports: [
+    TitlePageComponent
   ]
 })
 export class MainModule { }
