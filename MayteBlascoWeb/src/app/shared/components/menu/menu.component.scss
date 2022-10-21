@@ -1,0 +1,72 @@
+@import '../../../../shared-styles/variables.scss';
+
+nav {
+   padding: 2.5rem 0;
+   .logo {
+      width: 100%;
+      margin-bottom: 2rem;
+      padding: 0 1.5rem;
+      cursor: pointer;
+      img {
+         height: 40px;
+      }
+   }
+
+   ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+         display: flex;
+         flex-direction: column;
+         padding: 1.35rem 1.5rem calc(1.35rem - 2px);
+         border-top: 1px solid #eee;
+         @extend %easeTransition;
+         cursor: pointer;
+         .description {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            i {
+               margin-right: 0.75rem;
+               font-size: 1.6rem;
+               color: $purpleColor;
+               @extend %easeTransition;
+            }
+            span {
+               font-size: 1.2rem;
+            }
+            a {
+               text-decoration: none;
+               color: $blackColor;
+               @extend %easeTransition;
+            }
+         }
+         .line {
+            margin-left: 2.4rem;
+            width: 2rem;
+            height: 2px;
+            background-color: transparent;
+            @extend %easeTransition;
+         }
+         
+         &:last-child {
+            border-bottom: 1px solid #eee;
+         }
+         &:hover {
+            background-color: #f4f4f4;
+            .description {
+               i {
+                 color: $steelColor;
+               }
+               span, a {
+                  color: $steelColor;
+               }
+            }
+            .line {
+               background-color: $skyColor;
+            }
+         }
+      }
+   }
+}

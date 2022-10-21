@@ -1,11 +1,14 @@
 
 <mat-drawer-container class="main-container" autosize>
-   <mat-drawer #drawer class="sidenav" mode="side">
+   <mat-drawer #drawer class="sidenav" mode="side" [opened]="true">
       <app-menu></app-menu>
    </mat-drawer>
    
    <main>
-     <button (click)="drawer.toggle()">Menu</button>
+      <a (click)="drawer.toggle()">
+         <!-- <i class="w-icon-menu-right"></i> -->
+         <i [ngClass]="drawer.opened ? 'w-icon-menu-left' : 'w-icon-menu-right'"></i>
+      </a>
       <router-outlet></router-outlet>
    </main>
  

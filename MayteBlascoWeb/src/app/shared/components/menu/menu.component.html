@@ -1,8 +1,25 @@
-<ul>
-   <li [routerLink]="['/main/home']">Inicio</li>
-   <li [routerLink]="['/main/aboutMe']">Sobre mí</li>
-   <li [routerLink]="['/books/bibliography']">Mis libros</li>
-   <li [routerLink]="['/main/awards']">Premios y reconocimientos</li>
-   <li [routerLink]="['/main/interviews']">Entrevistas</li>
-   <li [routerLink]="['/main/contact']">Contacto</li>
-</ul>
+<nav>
+   <div class="logo" [routerLink]="['/main/home']">
+      <img src="assets/images/logo.svg">
+   </div>
+   
+   <ul>
+      <li *ngFor="let item of menuNavigation" [routerLink]="[item.link]">
+         <div class="description">
+            <i class="{{ item.icon }}"></i>
+            <span>{{ item.name }}</span>
+         </div>
+         <span class="line"></span>
+      </li>
+      <li>
+         <div class="description">
+            <i class="w-icon-pencil"></i>
+            <a href="https://elblogdemae.com/" target="_blank">Blog</a>
+         </div>
+         <span class="line"></span>
+      </li>
+     
+   </ul>
+</nav>
+
+

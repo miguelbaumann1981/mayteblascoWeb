@@ -10,10 +10,17 @@
       min-height: 100%;
       width: 100%;
       position: relative;
-      button {
+      a {
+         cursor: pointer;
          position: absolute;
          top: 20px;
          left: 20px;
+         font-size: 2rem;
+         color: $steelColor;
+         @extend %easeTransition;
+         &:hover {
+            color: $skyColor;
+         }
       }
    }
 }
