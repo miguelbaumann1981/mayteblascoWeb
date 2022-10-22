@@ -3,4 +3,72 @@
       [title]="bookDetail.title"
       [extraInfo]="bookDetail.publisher + ', ' + bookDetail.year"
    ></app-title-page>
+
+   <div class="return">
+      <button class="btn btn-outline-secondary" (click)="return()">
+         <i class="w-icon-arrow-left2"></i>
+         Volver
+      </button>
+   </div>
+
+   <div class="detail-summary">
+      <div class="portrait">
+         <img src="{{ bookDetail.image }}">
+      </div>
+
+      <div class="summary">
+         <h4>Sinopsis</h4>
+         <p *ngFor="let paragraph of bookDetail.summary">{{ paragraph }}</p>
+      </div>
+   </div>
+
+   <div class="extra">
+      <h4 class="margin">Canales de venta</h4>
+      <ul class="list-summary">
+         <li *ngFor="let store of bookDetail.stores">
+            <i class="icon-summary w-icon-books"></i>
+            {{ store.store }}
+            <a 
+               href="{{ store.url }}" 
+               matTooltip="Visitar sitio web"
+               matTooltipPosition="right" 
+               target="_blank"
+            >
+               <i class="w-icon-arrow-right"></i>
+            </a>
+         </li>
+      </ul>
+
+      <h4 *ngIf="bookDetail.awards" class="margin">Premios</h4>
+      <ul class="list-summary" *ngIf="bookDetail.awards">
+         <li *ngFor="let award of bookDetail.awards">
+            <i class="icon-summary w-icon-awards"></i>
+            {{ award.award }}
+            <a 
+               href="{{ award.url }}" 
+               matTooltip="Visitar sitio web"
+               matTooltipPosition="right" 
+               target="_blank"
+            >
+               <i class="w-icon-arrow-right"></i>
+            </a>
+         </li>
+      </ul>
+
+      <h4 *ngIf="bookDetail.reviews" class="margin">Reseñas</h4>
+      <ul class="list-summary" *ngIf="bookDetail.reviews">
+         <li *ngFor="let review of bookDetail.reviews">
+            <i class="icon-summary w-icon-pencil"></i>
+            {{ review.review }}
+            <a 
+               href="{{ review.url }}" 
+               matTooltip="Visitar sitio web"
+               matTooltipPosition="right" 
+               target="_blank"
+            >
+               <i class="w-icon-arrow-right"></i>
+            </a>
+         </li>
+      </ul>
+   </div>
 </section>

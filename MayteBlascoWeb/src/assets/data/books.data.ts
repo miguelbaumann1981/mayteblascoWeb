@@ -111,11 +111,11 @@ export const booksInformation: BookInfo[] = [
       ],
       stores: [
          {
-            store: 'Para la edición impresa y formato electrónico pdf: a través de Bubok',
+            store: 'Bubok',
             url: 'https://www.bubok.es/libros/243593/Las-vidas-que-pudimos-vivir'
          },
          {
-            store: 'Para la edición electrónica en formato Kindle: a través de Amazon',
+            store: 'Amazon',
             url: 'https://www.amazon.es/Las-vidas-que-pudimos-vivir-ebook/dp/B018UN0MEC/ref=sr_1_1?s=books&ie=UTF8&qid=1450257597&sr=1-1&keywords=las+vidas+que+pudimos+vivir'
          }
       ],

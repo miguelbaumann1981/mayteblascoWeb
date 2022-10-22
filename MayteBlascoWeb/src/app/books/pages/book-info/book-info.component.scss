@@ -2,4 +2,58 @@
 
 .book-info {
    @include containerPages;
+   padding-bottom: 4rem;
+   h4 {
+      font-size: 1.8rem;
+      color: $purpleColor;
+      &.margin {
+         margin: 3rem 0 1rem;
+      }
+   }
+   ul.list-summary {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+         font-size: 1.1rem;
+         font-weight: 400;
+         margin-bottom: 0.75rem;
+         display: flex;
+         align-items: center;
+         .icon-summary {
+            margin-right: 0.5rem;
+            color: $skyColor;
+         }
+         a {
+            margin-left: 1rem;
+         }
+      }
+   }
+   .return {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 1rem;
+   }
+   .detail-summary {
+      display: flex;
+      .portrait {
+         width: 20%;
+         display: flex;
+         flex-direction: column;
+         img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 1px 1px 4px rgba($color: #000000, $alpha: 0.5);
+         }
+      }
+      .summary {
+         width: 80%;
+         padding-left: 2rem;
+         @include commonParagraph;
+        
+      }
+      .extra {
+         // margin-top: 2rem;
+      }
+   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { booksInformation } from 'src/assets/data/books.data';
 import { BookInfo } from '../../interfaces/book.interface';
 
@@ -14,7 +14,7 @@ export class BookInfoComponent implements OnInit {
   public booksInfo: BookInfo[] = booksInformation;
   public bookDetail: any;
 
-  constructor( private route: ActivatedRoute ) { }
+  constructor( private route: ActivatedRoute, private routing: Router ) { }
 
   ngOnInit(): void {
     this.route.queryParams.subscribe(param => {
@@ -26,6 +26,10 @@ export class BookInfoComponent implements OnInit {
 
     });
 
+  }
+
+  return() {
+    this.routing.navigate(['/books/bibliography']);
   }
 
 
