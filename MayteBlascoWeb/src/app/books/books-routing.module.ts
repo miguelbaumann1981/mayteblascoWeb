@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BibliographyComponent } from './pages/bibliography/bibliography.component';
+import { BookInfoComponent } from './pages/book-info/book-info.component';
 
 const routes: Routes = [
   {
@@ -8,7 +9,11 @@ const routes: Routes = [
     children: [
       {
         path: 'bibliography',
-        component: BibliographyComponent
+        component: BibliographyComponent,
+      },
+      {
+        path: 'bookDetail',
+        component: BookInfoComponent
       },
       {
         path: '**',

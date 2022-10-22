@@ -5,7 +5,7 @@
    ></app-title-page>
    
    <div class="summary">
-      <div class="book-card" *ngFor="let book of booksInfo">
+      <div class="book-card" *ngFor="let book of booksInfo" (click)="seeDetailBook(book.id)">
          <div class="image">
             <img src="{{ book.image }}">
          </div>

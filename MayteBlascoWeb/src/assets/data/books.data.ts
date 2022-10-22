@@ -3,6 +3,7 @@ import { BookInfo } from '../../app/books/interfaces/book.interface';
 
 export const booksInformation: BookInfo[] = [
    {
+      id: 'jaulas-de-hormigon',
       title: 'Jaulas de hormigón',
       image: 'assets/images/jaulas-de-hormigon.jpg',
       year: 2021,
@@ -59,6 +60,7 @@ export const booksInformation: BookInfo[] = [
       ]
    },
    {
+      id: 'la-extraneza-de-la-lluvia',
       title: 'La extrañeza de la lluvia',
       image: 'assets/images/la-extraneza-de-la-lluvia.jpg',
       year: 2021,
@@ -98,6 +100,7 @@ export const booksInformation: BookInfo[] = [
       ]
    },
    {
+      id: 'las-vidas-que-pudimos-vivir',
       title: 'Las vidas que pudimos vivir',
       image: 'assets/images/las-vidas-que-pudimos-vivir.jpg',
       year: 2015,

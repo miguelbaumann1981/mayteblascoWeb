@@ -15,13 +15,12 @@
          flex-direction: column;
          cursor: pointer;
          .image {
-            height: 500px;
+            height: 75%;
             display: flex;
             justify-content: center;
             margin-bottom: 1rem;
             img {
-               width: auto;
-               height: 100%;
+               width: 100%;
             }
          }
          .title {

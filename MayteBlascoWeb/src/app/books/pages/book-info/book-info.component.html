@@ -1,1 +1,6 @@
-<p>book-info works!</p>
+<section class="book-info">
+   <app-title-page
+      [title]="bookDetail.title"
+      [extraInfo]="bookDetail.publisher + ', ' + bookDetail.year"
+   ></app-title-page>
+</section>

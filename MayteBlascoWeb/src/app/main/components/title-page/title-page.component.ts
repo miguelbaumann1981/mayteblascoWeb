@@ -9,6 +9,7 @@ export class TitlePageComponent implements OnInit {
 
   @Input() icon: string = '';
   @Input() title: string = '';
+  @Input() extraInfo: string = '';
 
   constructor() { }
 

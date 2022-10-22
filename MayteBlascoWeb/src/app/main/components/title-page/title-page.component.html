@@ -1,4 +1,9 @@
 <section class="title-page">
-   <i class="{{ icon }}"></i>
-   <h2>{{ title }}</h2>
+   <div class="title">
+      <i class="{{ icon }}"></i>
+      <h2>{{ title }}</h2>
+   </div>
+   <div class="extra-info" *ngIf="extraInfo">
+      <span>{{ extraInfo }}</span>
+   </div>
 </section>

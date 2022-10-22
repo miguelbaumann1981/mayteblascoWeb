@@ -1,4 +1,5 @@
 export interface BookInfo {
+   id: string;
    title: string;
    image: string;
    year: number;
