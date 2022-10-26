@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { interviewsInfo } from 'src/assets/data/interviews.data';
+import { InterviewItem } from '../../interfaces/interview.interface';
 
 @Component({
   selector: 'app-interviews',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./interviews.component.scss']
 })
 export class InterviewsComponent implements OnInit {
+
+  public interviewsList: InterviewItem[] = interviewsInfo;
 
   constructor() { }
 

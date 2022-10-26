@@ -1,0 +1,35 @@
+@import '../../../../shared-styles/variables.scss';
+
+.interviews {
+   @include containerPages;
+   &-item {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 1rem;
+      .title {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 1rem;
+         h3 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            i {
+               color: $skyColor;
+               margin-right: 0.5rem;
+               font-size: 1.5rem;
+            }
+         }
+      }
+      .image {
+         width: 100%;
+         display: flex;
+         img {
+            width: 30%;
+         }
+      }
+      &:last-of-type {
+         border-bottom: none;
+      }
+   }
+}

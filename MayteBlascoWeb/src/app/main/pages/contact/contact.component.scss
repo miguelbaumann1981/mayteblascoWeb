@@ -1,0 +1,17 @@
+@import '../../../../shared-styles/variables.scss';
+
+.contact {
+   @include containerPages;
+   @include commonParagraph;
+   @include subtitlePage;
+   .link {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      a {
+         font-size: 1.6rem;
+         color: $purpleColor;
+      }
+   }
+}
