@@ -2,14 +2,7 @@
 
 .book-info {
    @include containerPages;
-   padding-bottom: 4rem;
-   h4 {
-      font-size: 1.8rem;
-      color: $purpleColor;
-      &.margin {
-         margin: 3rem 0 1rem;
-      }
-   }
+   @include subtitlePage;
    ul.list-summary {
       list-style: none;
       margin: 0;

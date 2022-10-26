@@ -1,1 +1,31 @@
-<p>awards works!</p>
+<section class="awards">
+   <app-title-page
+      [icon]="'w-icon-awards'"
+      [title]="'Premios y reconocimientos'"
+   ></app-title-page>
+
+   <h4>Premios a obra publicada</h4>
+   <div class="award-card" *ngFor="let award of awardsList">
+      <div class="header">
+         <div class="title">
+            <span>{{ award.year }}</span>
+            <h5>{{ award.title }}</h5>
+         </div>
+         <a href="{{ award.url }}" target="_blank" matTooltip="Visitar sitio web" matTooltipPosition="left"><i class="w-icon-arrow-right"></i></a>
+      </div>
+      <p class="description">{{ award.description }}</p>
+   </div>
+
+   <h4 class="margin">Certámenes de microrrelato y relato corto</h4>
+   <div class="award-card" *ngFor="let shortStory of shortStoriesList">
+      <div class="header">
+         <div class="title">
+            <span>{{ shortStory.year }}</span>
+            <h5>{{ shortStory.title }}</h5>
+         </div>
+         <a href="{{ shortStory.url }}" target="_blank" matTooltip="Visitar sitio web" matTooltipPosition="left"><i class="w-icon-arrow-right"></i></a>
+      </div>
+      <p class="description">{{ shortStory.description }}</p>
+   </div>
+   
+</section>

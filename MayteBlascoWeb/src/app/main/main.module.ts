@@ -8,6 +8,7 @@ import { AwardsComponent } from './pages/awards/awards.component';
 import { InterviewsComponent } from './pages/interviews/interviews.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { TitlePageComponent } from './components/title-page/title-page.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { TitlePageComponent } from './components/title-page/title-page.component
   ],
   imports: [
     CommonModule,
-    MainRoutingModule
+    MainRoutingModule,
+    MaterialModule
   ],
   exports: [
     TitlePageComponent

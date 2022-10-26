@@ -18,7 +18,7 @@ $blackColor: #2A2A2A;
 @mixin containerPages {
    width: 100%;
    min-height: 100%;
-   padding: 2rem 5rem;
+   padding: 2rem 5rem 4rem 5rem;
    
 }
 
@@ -49,6 +49,16 @@ $blackColor: #2A2A2A;
       }
       strong {
          font-weight: 500;
+      }
+   }
+}
+
+@mixin subtitlePage {
+   h4 {
+      font-size: 1.8rem;
+      color: $purpleColor;
+      &.margin {
+         margin: 3rem 0 1rem;
       }
    }
 }

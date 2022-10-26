@@ -1,0 +1,42 @@
+@import '../../../../shared-styles/variables.scss';
+
+.awards {
+   @include containerPages;
+   @include subtitlePage;
+
+   .award-card {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 1rem 1.5rem 0;
+      margin: 1rem 0;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.25);
+      .header {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         .title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            h5 {
+               color: $skyColor;
+               font-size: 1.6rem;
+               margin: 0;
+            }
+            span {
+               color: $steelColor;
+               border: 1px solid #ccc;
+               padding: 3px 10px;
+               font-size: 1.1rem;
+               margin-right: 0.5rem;
+            }
+         }
+      }
+      .description {
+         @include commonParagraph;
+      }
+   }
+}
