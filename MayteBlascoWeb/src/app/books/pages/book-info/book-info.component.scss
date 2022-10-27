@@ -18,7 +18,10 @@
             color: $skyColor;
          }
          a {
-            margin-left: 1rem;
+            margin-left: 1.5rem;
+            i {
+               color: $linkColor;
+            }
          }
       }
    }
@@ -44,9 +47,6 @@
          padding-left: 2rem;
          @include commonParagraph;
         
-      }
-      .extra {
-         // margin-top: 2rem;
       }
    }
 }

@@ -34,6 +34,12 @@
                margin-right: 0.5rem;
             }
          }
+         a {
+            i {
+               color: $linkColor;
+               font-size: 1.5rem;
+            }
+         }
       }
       .description {
          @include commonParagraph;

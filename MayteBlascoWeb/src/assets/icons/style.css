@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mayte';
-  src:  url('fonts/mayte.eot?i5d5m7');
-  src:  url('fonts/mayte.eot?i5d5m7#iefix') format('embedded-opentype'),
-    url('fonts/mayte.ttf?i5d5m7') format('truetype'),
-    url('fonts/mayte.woff?i5d5m7') format('woff'),
-    url('fonts/mayte.svg?i5d5m7#mayte') format('svg');
+  src:  url('fonts/mayte.eot?cr04qo');
+  src:  url('fonts/mayte.eot?cr04qo#iefix') format('embedded-opentype'),
+    url('fonts/mayte.ttf?cr04qo') format('truetype'),
+    url('fonts/mayte.woff?cr04qo') format('woff'),
+    url('fonts/mayte.svg?cr04qo#mayte') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.w-icon-menu-left:before {
+  content: "\e900";
+}
+.w-icon-menu-right:before {
+  content: "\e901";
+}
 .w-icon-awards:before {
   content: "\e902";
 }
@@ -39,12 +45,6 @@
 }
 .w-icon-microphone:before {
   content: "\e907";
-}
-.w-icon-menu-left:before {
-  content: "\e900";
-}
-.w-icon-menu-right:before {
-  content: "\e901";
 }
 .w-icon-pencil:before {
   content: "\e905";
@@ -90,4 +90,10 @@
 }
 .w-icon-arrow-left2:before {
   content: "\ea40";
+}
+.w-icon-share:before {
+  content: "\ea7d";
+}
+.w-icon-instagram:before {
+  content: "\ea92";
 }

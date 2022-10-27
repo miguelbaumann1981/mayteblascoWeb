@@ -14,4 +14,29 @@
          color: $purpleColor;
       }
    }
+   .instagram {
+      margin-top: 4rem;
+      p {
+         font-size: 1.1rem;
+         line-height: 2rem;
+         font-weight: 300;
+         display: flex;
+         align-items: center;
+         i {
+            color: $skyColor;
+            margin-right: 0.5rem;
+            font-size: 1.5rem;
+         }
+         a {
+            color: $purpleColor;
+            margin: 0 0.25rem;
+            font-weight: 500;
+            @extend %easeTransition;
+            &:hover {
+               color: $linkColor;
+            }
+         }
+      }
+      
+   }
 }
