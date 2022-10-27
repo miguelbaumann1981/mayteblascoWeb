@@ -18,3 +18,49 @@
       }
    }
 }
+
+@media(max-width: $tabletH) {
+   .about-me {
+      padding: 2rem 2rem 4rem 2rem;
+      .content {
+         flex-direction: column;
+         .description {
+            width: 100%;
+            padding-right: 0;
+            p {
+               font-size: 1rem;
+            }
+         }
+         .photo {
+            margin-top: 1rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            img {
+               width: 50%;
+            }
+            
+         }
+      }
+   }
+}
+
+@media(max-width: $mobileH) {
+   .about-me {
+      padding: 2rem 1rem 4rem 1rem;
+      .content {
+         .description {
+            p {
+               font-size: 0.9rem;
+               line-height: 1.5rem;
+            }
+         }
+         .photo {
+            img {
+               width: 100%;
+            }
+            
+         }
+      }
+   }
+}

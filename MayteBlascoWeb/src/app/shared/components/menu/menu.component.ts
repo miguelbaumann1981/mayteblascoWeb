@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { ItemMenu } from '../../interfaces/menu.interface';
 import { menuNav } from 'src/assets/data/menu.data';
 
@@ -16,5 +16,7 @@ export class MenuComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
 
 }

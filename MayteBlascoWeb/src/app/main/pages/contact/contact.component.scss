@@ -20,8 +20,6 @@
          font-size: 1.1rem;
          line-height: 2rem;
          font-weight: 300;
-         display: flex;
-         align-items: center;
          i {
             color: $skyColor;
             margin-right: 0.5rem;
@@ -38,5 +36,54 @@
          }
       }
       
+   }
+}
+
+@media(max-width: $tabletH) {
+   .contact {
+      padding: 2rem 2rem 4rem 2rem;
+      p {
+         font-size: 1rem;
+         line-height: 1.6rem;
+      }
+      .link {
+         a {
+            font-size: 1.3rem;
+         }
+      }
+      .instagram {
+         margin-top: 2rem;
+         p {
+            font-size: 1rem;
+            line-height: 1.6rem;
+            i {
+               font-size: 1.2rem;
+            }
+         }
+      }
+   }
+}
+
+@media(max-width: $mobileH) {
+   .contact {
+      padding: 2rem 1rem 4rem 1rem;
+      p {
+         font-size: 0.95rem;
+         line-height: 1.5rem;
+      }
+      .link {
+         a {
+            font-size: 1.1rem;
+         }
+      }
+      .instagram {
+         p {
+            font-size: 0.95rem;
+            line-height: 1.5rem;
+            i {
+               font-size: 1.1rem;
+            }
+         }
+      }
    }
 }

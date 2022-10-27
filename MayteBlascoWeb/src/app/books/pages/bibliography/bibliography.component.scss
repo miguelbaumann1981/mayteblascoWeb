@@ -56,3 +56,88 @@
       }
    }
 }
+
+@media(max-width: $desktopL) {
+   .bibliography {
+      padding: 4rem 2rem 4rem 2rem;
+      .summary {
+         justify-content: center;
+         flex-direction: column;
+         .book-card {
+            width: 100%;
+            flex-direction: row;
+            .image {
+               margin-bottom: 0;
+               width: 25%;
+            }
+            .title {
+               margin-left: 2rem;
+               h3 {
+                  margin-top: 0;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media(max-width: $desktopL) {
+   .bibliography {
+      .summary {
+         .book-card {
+            .title {
+               h3 {
+                  font-size: 1.5rem;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media(max-width: $tabletH) {
+   .bibliography {
+      padding: 2rem 2rem 4rem 2rem;
+      .summary {
+         .book-card {
+            padding: 1rem;
+            .title {
+               h3 {
+                  font-size: 1.2rem;
+               }
+               h4 {
+                  font-size: 0.95rem;
+               }
+               span {
+                  font-size: 1rem;
+               }
+            }
+         }
+      }
+   }
+}
+
+@media(max-width: $mobileH) {
+   .bibliography {
+      padding: 2rem 1rem 4rem 1rem;
+      .summary {
+         .book-card {
+            padding: 0.5rem;
+            .title {
+               margin-left: 1rem;
+               h3 {
+                  font-size: 1rem;
+                  margin-bottom: 0.5rem;
+               }
+               h4 {
+                  font-size: 0.9rem;
+                  margin-bottom: 0.5rem;
+               }
+               span {
+                  font-size: 0.9rem;
+               }
+            }
+         }
+      }
+   }
+}

@@ -20,12 +20,62 @@
          font-size: 2.2rem;
          color: $steelColor;
          font-weight: 800;
+         margin: 0;
       }
    }
    .extra-info {
       span {
          font-size: 1.2rem;
          color: $orangeColor;
+      }
+   }
+}
+
+@media(max-width: $desktopM) {
+   .title-page {
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
+      .extra-info {
+         padding-left: 1rem;
+      }
+   }
+}
+
+@media(max-width: $tabletH) {
+   .title-page {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      .title {
+         i {
+            font-size: 1.5rem;
+         }
+         h2 {
+            font-size: 1.2rem;
+         }
+      }
+      .extra-info {
+         span {
+            font-size: 0.9rem;
+         }
+      }
+   }
+}
+
+@media(max-width: $mobileH) {
+   .title-page {
+      .title {
+         i {
+            font-size: 1.3rem;
+         }
+         h2 {
+            font-size: 1.1rem;
+         }
+      }
+      .extra-info {
+         span {
+            font-size: 0.8rem;
+         }
       }
    }
 }

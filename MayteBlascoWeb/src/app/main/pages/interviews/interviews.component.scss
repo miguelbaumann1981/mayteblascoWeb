@@ -39,3 +39,52 @@
       }
    }
 }
+
+@media(max-width: $tabletH) {
+   .interviews {
+      padding: 2rem 2rem 4rem 2rem;
+      .interviews-item {
+         .title {
+            h3 {
+               font-size: 1.1rem;
+               padding-right: 1rem;
+               i {
+                  font-size: 1.3rem;
+               }
+            }
+         }
+         .image {
+            img {
+               width: 50%;
+            }
+         }
+      }
+   }
+}
+
+@media(max-width: $mobileH) {
+   .interviews {
+      padding: 2rem 1rem 4rem 1rem;
+      .interviews-item {
+         .title {
+            h3 {
+               font-size: 1rem;
+               padding-right: 1rem;
+               i {
+                  font-size: 1.1rem;
+               }
+            }
+            a {
+               i {
+                  font-size: 1.1rem;
+               }
+            }
+         }
+         .image {
+            img {
+               width: 100%;
+            }
+         }
+      }
+   }
+}

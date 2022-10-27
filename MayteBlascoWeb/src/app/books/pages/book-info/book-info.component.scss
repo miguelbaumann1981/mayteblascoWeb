@@ -50,3 +50,84 @@
       }
    }
 }
+
+@media(max-width: $desktopL) {
+   .book-info {
+      padding: 4rem 2rem 4rem 2rem;
+   }
+}
+
+@media(max-width: $desktopM) {
+   .book-info {
+      .detail-summary {
+         .portrait {
+            width: 30%
+         }
+         .summary {
+            width: 70%;
+         }
+      }
+   }
+}
+
+@media(max-width: $tabletH) {
+   .book-info {
+      padding: 2rem 2rem 4rem 2rem;
+      .return {
+         button {
+            font-size: 0.8rem;
+            padding: 4px;
+         }
+      }
+      .detail-summary {
+         .summary {
+            h4 {
+               font-size: 1.4rem;
+            }
+            p {
+               font-size: 1rem;
+               line-height: 1.6rem;
+            }
+         }
+      }
+      ul.list-summary {
+         li {
+            font-size: 1rem;
+         }
+      }
+   }
+}
+
+@media(max-width: $mobileH) {
+   .book-info {
+      padding: 2rem 1rem 4rem 1rem;
+      
+      .detail-summary {
+         flex-direction: column-reverse;
+         .portrait {
+            width: 100%;
+         }
+         .summary {
+            width: 100%;
+            padding-left: 0;
+            h4 {
+               font-size: 1.2rem;
+            }
+            p {
+               font-size: 0.9rem;
+               line-height: 1.5rem;
+            }
+         }
+      }
+      ul.list-summary {
+         li {
+            font-size: 0.9rem;
+         }
+      }
+      .extra {
+         h4 {
+            font-size: 1.2rem;
+         }
+      }
+   }
+}

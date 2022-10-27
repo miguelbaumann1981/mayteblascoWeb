@@ -31,13 +31,17 @@
 @media(max-width: $tabletH) {
    .main-container {
       .sidenav {
-         min-width: 90%;
+         min-width: 70px;
+         width: 70px;
       }
       main {
          a {
-            left: initial;
-            right: 8px;
+            color: $steelColor;
+            background: none;
             font-size: 1rem;
+            &:hover {
+               color: $steelColor;
+            }
          }
       }
    }
