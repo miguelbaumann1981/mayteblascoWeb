@@ -38,7 +38,7 @@ export const booksInformation: BookInfo[] = [
             url: 'https://algunoslibrosbuenos.com/jaulas-de-hormigon'
          },
          {
-            review: 'Los libros de Veda',
+            review: 'Leo y te lo cuento',
             url: 'https://loslibrosdeveda.blogspot.com/2021/12/jaulas-de-hormigon-mayte-blasco.html'
          },
          {

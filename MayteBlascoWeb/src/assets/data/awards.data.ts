@@ -11,6 +11,12 @@ export const awardsInfo: AwardItem[] = [
 
 export const shortStoriesInfo: AwardItem[] = [
    {
+      title: 'Terapia poética',
+      description: 'Accésit Concurso de Microrrelatos de la Red de Bibliotecas Públicas Municipales de Madrid: Machado en 100 palabras.',
+      url: 'https://bibliotecas.madrid.es/UnidadesDescentralizadas/Bibliotecas/BibliotecasPublicas/ActividadesBPM/Actividades%20Adultos/Concursos,%20Cert%C3%A1mentes%20y%20Premios/ConcursoMicrorrelatos/Microrrelatos%202022/ficheros/Acta%20del%20jurado%20del%20XIV%20Concurso%20de%20Microrrelatos.pdf',
+      year: 2022
+   },
+   {
       title: 'Amor poliédrico',
       description: 'Finalista del Concurso de Microrrelatos «Una mente poliédrica», convocado por el Museo de Historia de Madrid.',
       url: '',
@@ -67,7 +73,7 @@ export const shortStoriesInfo: AwardItem[] = [
    {
       title: 'Esperando a Mamá',
       description: 'Finalista en el I Concurso de Relatos Cuarto y Mitad, de la Biblioteca Pública Municipal Mario Vargas Llosa.',
-      url: 'https://elblogdemae.com/2017/12/01/esperando-a-mama/',
+      url: 'https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Ganadoras-y-ganadores-de-la-I-edicion-del-concurso-de-relatos-Cuarto-y-Mitad-/?vgnextfmt=default&vgnextoid=cd11b73edd881610VgnVCM2000001f4a900aRCRD&vgnextchannel=ce069e242ab26010VgnVCM100000dc0ca8c0RCRD',
       year: 2017
    },
    {
