@@ -11,10 +11,6 @@ const routes: Routes = [
     path: '',
     children: [
       {
-        path: 'home',
-        component: HomeComponent
-      },
-      {
         path: 'aboutMe',
         component: AboutMeComponent
       },
@@ -32,7 +28,7 @@ const routes: Routes = [
       },
       {
         path: '**',
-        redirectTo: 'home'
+        redirectTo: ''
       }
     ]
   },

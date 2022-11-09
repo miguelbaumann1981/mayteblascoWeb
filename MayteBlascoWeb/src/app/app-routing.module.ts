@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './main/pages/home/home.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent
+  },
   {
     path: 'main',
     loadChildren: () => import('./main/main.module').then(mod => mod.MainModule)
@@ -12,7 +17,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'main'
+    redirectTo: ''
   }
 ];
 
