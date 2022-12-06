@@ -11,6 +11,18 @@ export const awardsInfo: AwardItem[] = [
 
 export const shortStoriesInfo: AwardItem[] = [
    {
+      title: 'Ganador sin medalla',
+      description: 'Mención especial del jurado. X Concurso de Microrrelatos San Silvestre Salmantina.',
+      url: 'https://sansilvestresalmantina.com/concurso-micro-relatos',
+      year: 2022
+   },
+   {
+      title: 'En la biblioteca',
+      description: 'Finalista VI Concurso de Relatos Cuarto y Mitad, de la Biblioteca Pública Municipal Mario Vargas Llosa.',
+      url: 'https://bibliotecas.madrid.es/portales/bibliotecas/es/Actividades/Actividades/?vgnextfmt=default&vgnextoid=afe3d53a024ab510VgnVCM1000001d4a900aRCRD&vgnextchannel=fb1a0b6eb5cb3510VgnVCM1000008a4a900aRCRD&idCapitulo=11803727',
+      year: 2022
+   },
+   {
       title: 'Terapia poética',
       description: 'Accésit Concurso de Microrrelatos de la Red de Bibliotecas Públicas Municipales de Madrid: Machado en 100 palabras.',
       url: 'https://bibliotecas.madrid.es/UnidadesDescentralizadas/Bibliotecas/BibliotecasPublicas/ActividadesBPM/Actividades%20Adultos/Concursos,%20Cert%C3%A1mentes%20y%20Premios/ConcursoMicrorrelatos/Microrrelatos%202022/ficheros/Acta%20del%20jurado%20del%20XIV%20Concurso%20de%20Microrrelatos.pdf',

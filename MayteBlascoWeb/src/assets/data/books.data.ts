@@ -26,6 +26,10 @@ export const booksInformation: BookInfo[] = [
       ],
       reviews: [
          {
+            review: 'Cuentos contigo',
+            url: 'https://cuentoscontigo.wordpress.com/2022/03/26/jaulas-de-hormigon-la-carcel-interior/?fbclid=IwAR34l1770DjrbXAHVkuumrJCQk5WZmaGHMtNpDXQrJIkMHuHDdFJwcMU-TU'
+         },
+         {
             review: 'Libros y literatura',
             url: 'https://www.librosyliteratura.es/jaulas-de-hormigon.html'
          },
