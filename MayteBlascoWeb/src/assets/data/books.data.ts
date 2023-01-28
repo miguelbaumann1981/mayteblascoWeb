@@ -26,28 +26,16 @@ export const booksInformation: BookInfo[] = [
       ],
       reviews: [
          {
-            review: 'Cuentos contigo',
-            url: 'https://cuentoscontigo.wordpress.com/2022/03/26/jaulas-de-hormigon-la-carcel-interior/?fbclid=IwAR34l1770DjrbXAHVkuumrJCQk5WZmaGHMtNpDXQrJIkMHuHDdFJwcMU-TU'
-         },
-         {
             review: 'Libros y literatura',
             url: 'https://www.librosyliteratura.es/jaulas-de-hormigon.html'
          },
          {
-            review: 'Rafalé Guadalmedina',
-            url: 'https://rafaleguadalmedina.wordpress.com/2022/05/24/jaulas-de-hormigon-mayte-blasco/'
+            review: 'Manuel Ortuño',
+            url: 'https://www.ninalobaeditorial.es/resena-de-jaulas-de-hormigon-por-manuel-ortuno/'
          },
          {
             review: 'Algunos libros buenos',
             url: 'https://algunoslibrosbuenos.com/jaulas-de-hormigon'
-         },
-         {
-            review: 'Leo y te lo cuento',
-            url: 'https://loslibrosdeveda.blogspot.com/2021/12/jaulas-de-hormigon-mayte-blasco.html'
-         },
-         {
-            review: 'Manuel Ortuño',
-            url: 'https://www.ninalobaeditorial.es/resena-de-jaulas-de-hormigon-por-manuel-ortuno/'
          },
          {
             review: 'Las ruinas del Cálamo',
@@ -58,8 +46,24 @@ export const booksInformation: BookInfo[] = [
             url: 'https://sorpresaysuspense.com/2022/06/08/jaulas-de-hormigon/'
          },
          {
+            review: 'Rafalé Guadalmedina',
+            url: 'https://rafaleguadalmedina.wordpress.com/2022/05/24/jaulas-de-hormigon-mayte-blasco/'
+         },
+         {
+            review: 'Cuentos contigo',
+            url: 'https://cuentoscontigo.wordpress.com/2022/03/26/jaulas-de-hormigon-la-carcel-interior/?fbclid=IwAR34l1770DjrbXAHVkuumrJCQk5WZmaGHMtNpDXQrJIkMHuHDdFJwcMU-TU'
+         },
+         {
+            review: 'Leo y te lo cuento',
+            url: 'https://loslibrosdeveda.blogspot.com/2021/12/jaulas-de-hormigon-mayte-blasco.html'
+         },
+         {
             review: 'Librario íntimo',
             url: 'https://rubencastillo.blogspot.com/2022/10/jaulas-de-hormigon.html'
+         },
+         {
+            review: 'Elena Casero',
+            url: 'https://librosylecturasdeelena.blogspot.com/2023/01/jaulas-de-hormigon-mayte-blasco.html?m=1'
          }
       ]
    },
