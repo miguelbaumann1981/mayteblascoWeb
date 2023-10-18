@@ -26,6 +26,10 @@ export const booksInformation: BookInfo[] = [
       ],
       reviews: [
          {
+            review: 'Jesús Castro Lago',
+            url: 'https://eticadepo.blogspot.com/2023/09/jaulas-de-hormigon-mayte-blasco.html'
+         },
+         {
             review: 'Libros y literatura',
             url: 'https://www.librosyliteratura.es/jaulas-de-hormigon.html'
          },
