@@ -8,6 +8,7 @@ export interface BookInfo {
    stores: Store[];
    awards?: AwardsList[];
    reviews: Review[];
+   others?: Review[];
 }
 
 interface AwardsList {

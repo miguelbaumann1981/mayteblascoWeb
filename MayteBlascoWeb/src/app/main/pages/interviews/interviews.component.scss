@@ -31,7 +31,14 @@
          width: 100%;
          display: flex;
          img {
+            cursor: pointer;
+            @extend %easeTransition;
             width: 30%;
+            border: 1px solid transparent;
+            &:hover {
+               opacity: 0.8;
+               border: 1px solid #ccc;
+            }
          }
       }
       &:last-of-type {

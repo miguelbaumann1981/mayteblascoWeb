@@ -3,6 +3,37 @@ import { BookInfo } from '../../app/books/interfaces/book.interface';
 
 export const booksInformation: BookInfo[] = [
    {
+      id: 'la-mejor-familia-del-mundo',
+      title: 'La mejor familia del mundo',
+      image: 'assets/images/la-mejor-familia-del-mundo.jpg',
+      year: 2024,
+      publisher: 'Editorial Niña Loba',
+      summary: [
+         'La mejor familia del mundo es una antología de relatos que exploran las relaciones familiares: hermanos celosos, padres que anteponen sus vicios al cuidado de sus hijos, tías que juegan con sus sobrinos mientras esconden su frustración por la maternidad truncada, primas que pierden la amistad que cultivaron de niñas, padres que obligan a sus hijas a tomar decisiones que les harán daño…',
+         'Una animada galería de doce prodigios familiares imperfectos, nacidos de relaciones atravesadas por emociones dispares que transitan entre la culpa, la decepción y el amor.'
+      ],
+      stores: [
+         {
+            store: 'Web de la editorial Niña Loba',
+            url: 'https://www.ninalobaeditorial.es/producto/la-mejor-familia-del-mundo/'
+         }
+      ],
+      reviews: [
+         {
+            review: 'Un libro en las antípodas',
+            url: 'https://unlibroenlasantipodas.blogspot.com/2024/02/la-mejor-familia-del-mundo-de-mayte.html'
+         },
+         {
+            review: 'Cristina Pérez Escribano',
+            url: 'https://crisdejulia.blogspot.com/2024/03/mayte-blasco-hablando-de-familias.html'
+         },
+         {
+            review: 'Las ruinas del cálamo',
+            url: 'https://lasruinasdecalamo.wordpress.com/2024/03/02/la-mejor-familia-del-mundo-de-mayte-blasco/'
+         },
+      ]
+   },
+   {
       id: 'jaulas-de-hormigon',
       title: 'Jaulas de hormigón',
       image: 'assets/images/jaulas-de-hormigon.jpg',
@@ -25,10 +56,6 @@ export const booksInformation: BookInfo[] = [
          }
       ],
       reviews: [
-         {
-            review: 'Jesús Castro Lago',
-            url: 'https://eticadepo.blogspot.com/2023/09/jaulas-de-hormigon-mayte-blasco.html'
-         },
          {
             review: 'Libros y literatura',
             url: 'https://www.librosyliteratura.es/jaulas-de-hormigon.html'
@@ -68,6 +95,16 @@ export const booksInformation: BookInfo[] = [
          {
             review: 'Elena Casero',
             url: 'https://librosylecturasdeelena.blogspot.com/2023/01/jaulas-de-hormigon-mayte-blasco.html?m=1'
+         },
+         {
+            review: 'Jesús Castro Lago',
+            url: 'https://eticadepo.blogspot.com/2023/09/jaulas-de-hormigon-mayte-blasco.html'
+         }
+      ],
+      others: [
+         {
+            review: 'Tres libros de cálido terror, por Darío Méndez',
+            url: 'https://www.ninalobaeditorial.es/tres-libros-de-calido-terror/'
          }
       ]
    },

@@ -11,6 +11,12 @@ export const awardsInfo: AwardItem[] = [
 
 export const shortStoriesInfo: AwardItem[] = [
    {
+      title: 'Guepardo',
+      description: 'Mención especial del jurado. XI Concurso de Microrrelatos San Silvestre Salmantina.',
+      url: 'https://salamancartvaldia.es/noticia/2023-11-24-estos-son-los-ganadores-del-concurso-de-microrrelatos-san-silvestre-salmantina-335006?fbclid=IwAR1MYLo8qRCwfrbQ9JaRqolQLoP8xZbDsheswtQJlKiWVNJauscxCeINcNs',
+      year: 2023
+   },
+   {
       title: 'Ganador sin medalla',
       description: 'Mención especial del jurado. X Concurso de Microrrelatos San Silvestre Salmantina.',
       url: 'https://sansilvestresalmantina.com/concurso-micro-relatos',

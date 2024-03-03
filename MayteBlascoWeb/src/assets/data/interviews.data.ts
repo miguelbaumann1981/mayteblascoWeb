@@ -2,6 +2,11 @@ import { InterviewItem } from 'src/app/main/interfaces/interview.interface';
 
 export const interviewsInfo: InterviewItem[] = [
    {
+      title: 'Entrevista por la Asociación de Mujeres Escritoras e Ilustradoras',
+      image: '/assets/images/ameis.png',
+      url: 'https://ameisescritoras.es/cuestionario-ameis-mayte-blasco'
+   },
+   {
       title: 'Grabación del directo en el Canal de YouTube Desenfocados: Espacio Literario',
       image: '/assets/images/entrevista-desenfocados.jpg',
       url: 'https://www.youtube.com/watch?v=tnH00JvU0ps&t=900s'

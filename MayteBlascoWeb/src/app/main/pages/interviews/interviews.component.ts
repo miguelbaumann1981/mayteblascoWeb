@@ -16,4 +16,8 @@ export class InterviewsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goTo(url: string): void {
+    window.open(url, '_blank');
+  }
+
 }
