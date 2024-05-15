@@ -2,6 +2,11 @@ import { InterviewItem } from 'src/app/main/interfaces/interview.interface';
 
 export const interviewsInfo: InterviewItem[] = [
    {
+      title: 'Entrevista por Pablo Frías (Asociación Primaduroverales)',
+      image: '/assets/images/pablo-frias.png',
+      url: 'https://primaduroverales.wordpress.com/2024/04/10/entrevista-a-mayte-blasco-por-pablo-frias/'
+   },
+   {
       title: 'Entrevista por la Asociación de Mujeres Escritoras e Ilustradoras',
       image: '/assets/images/ameis.png',
       url: 'https://ameisescritoras.es/cuestionario-ameis-mayte-blasco'

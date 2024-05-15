@@ -31,6 +31,24 @@ export const booksInformation: BookInfo[] = [
             review: 'Las ruinas del cálamo',
             url: 'https://lasruinasdecalamo.wordpress.com/2024/03/02/la-mejor-familia-del-mundo-de-mayte-blasco/'
          },
+         {
+            review: 'Las ataduras del linaje. Reseña del editor',
+            url: 'https://www.ninalobaeditorial.es/la-mejor-familia-del-mundo-de-mayte-blasco/'
+         },
+         {
+            review: 'Reseña de Ovidio Parades',
+            url: 'https://ovidioparades.blogspot.com/2024/04/la-mejor-familia-del-mundo.html?m=1'
+         },
+         {
+            review: 'Reseña de Rafalé Guadalmedina',
+            url: 'https://rafaleguadalmedina.wordpress.com/2024/03/21/la-mejor-familia-del-mundo-mayte-blasco/'
+         }
+      ],
+      others: [
+         {
+            review: 'Lectura del relato ‘Hermanos’ por Acento Ainaga',
+            url: 'https://www.youtube.com/watch?v=jKNQrUG09UQ'
+         }
       ]
    },
    {
@@ -101,7 +119,7 @@ export const booksInformation: BookInfo[] = [
             url: 'https://eticadepo.blogspot.com/2023/09/jaulas-de-hormigon-mayte-blasco.html'
          }
       ],
-      others: [
+      othersArticles: [
          {
             review: 'Tres libros de cálido terror, por Darío Méndez',
             url: 'https://www.ninalobaeditorial.es/tres-libros-de-calido-terror/'
@@ -159,10 +177,6 @@ export const booksInformation: BookInfo[] = [
          'Susana es la becaria, una chica insegura que padece los estigmas de su aspecto físico. Violeta es la bibliotecaria, una joven reaccionaria proclive a sufrir decepciones por parte de sus seres más queridos. Diana es la museóloga, una madre que lucha por mantenerse junto a su hija en una sociedad consumida por la crisis. Paola es la jefa de ellas tres, una bella mujer que busca la felicidad a toda costa a pesar de los obstáculos que encuentra por el camino. Soledad es la presidenta de la fundación, una maquiavélica persona llena de odio que emplea sus armas para alcanzar sus objetivos aunque sean carentes de ética. El nexo que une estas cinco personalidades es el lugar en el que trabajan, un palacete madrileño donde la corrupción acapara más protagonismo que el arte.'
       ],
       stores: [
-         {
-            store: 'Bubok',
-            url: 'https://www.bubok.es/libros/243593/Las-vidas-que-pudimos-vivir'
-         },
          {
             store: 'Amazon',
             url: 'https://www.amazon.es/Las-vidas-que-pudimos-vivir-ebook/dp/B018UN0MEC/ref=sr_1_1?s=books&ie=UTF8&qid=1450257597&sr=1-1&keywords=las+vidas+que+pudimos+vivir'

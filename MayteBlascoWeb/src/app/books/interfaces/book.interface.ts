@@ -9,6 +9,7 @@ export interface BookInfo {
    awards?: AwardsList[];
    reviews: Review[];
    others?: Review[];
+   othersArticles?: Review[];
 }
 
 interface AwardsList {

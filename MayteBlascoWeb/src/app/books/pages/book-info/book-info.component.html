@@ -71,10 +71,26 @@
          </li>
       </ul>
 
-      <h4 *ngIf="bookDetail.others" class="margin">Otros artículos</h4>
+      <h4 *ngIf="bookDetail.othersArticles" class="margin">Otros artículos</h4>
+      <ul class="list-summary" *ngIf="bookDetail.othersArticles">
+         <li *ngFor="let review of bookDetail.othersArticles">
+            <i class="icon-summary w-icon-pencil"></i>
+            {{ review.review }}
+            <a 
+               href="{{ review.url }}" 
+               matTooltip="Visitar sitio web"
+               matTooltipPosition="right" 
+               target="_blank"
+            >
+               <i class="w-icon-share"></i>
+            </a>
+         </li>
+      </ul>
+
+      <h4 *ngIf="bookDetail.others" class="margin">Otros</h4>
       <ul class="list-summary" *ngIf="bookDetail.others">
          <li *ngFor="let review of bookDetail.others">
-            <i class="icon-summary w-icon-pencil"></i>
+            <i class="icon-summary w-icon-video"></i>
             {{ review.review }}
             <a 
                href="{{ review.url }}" 
