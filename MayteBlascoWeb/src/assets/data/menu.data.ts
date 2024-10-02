@@ -25,5 +25,10 @@ export const menuNav: ItemMenu[] = [
       icon: 'w-icon-envelop',
       name: 'Contacto',
       link: '/main/contact'
+   },
+   {
+      icon: 'icon-users',
+      name: 'Colaboraciones',
+      link: '/main/contact'
    }
 ];

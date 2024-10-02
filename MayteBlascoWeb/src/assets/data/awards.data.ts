@@ -11,6 +11,12 @@ export const awardsInfo: AwardItem[] = [
 
 export const shortStoriesInfo: AwardItem[] = [
    {
+      title: 'Vida de una mucama',
+      description: 'Finalista XIV Concurso Eurostars Hotel Company de Relatos Breves.',
+      url: 'https://www.eurostarscultura.com/max-valero-gana-el-xiv-concurso-eurostars-hotel-company-de-relatos-breves/',
+      year: 2024
+   },
+   {
       title: 'Guepardo',
       description: 'Mención especial del jurado. XI Concurso de Microrrelatos San Silvestre Salmantina.',
       url: 'https://salamancartvaldia.es/noticia/2023-11-24-estos-son-los-ganadores-del-concurso-de-microrrelatos-san-silvestre-salmantina-335006?fbclid=IwAR1MYLo8qRCwfrbQ9JaRqolQLoP8xZbDsheswtQJlKiWVNJauscxCeINcNs',
