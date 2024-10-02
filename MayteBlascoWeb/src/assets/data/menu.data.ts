@@ -29,6 +29,6 @@ export const menuNav: ItemMenu[] = [
    {
       icon: 'icon-users',
       name: 'Colaboraciones',
-      link: '/main/contact'
+      link: '/main/colaborations'
    }
 ];

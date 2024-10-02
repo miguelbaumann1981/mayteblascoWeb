@@ -1,0 +1,110 @@
+@import '../../../../shared-styles/variables.scss';
+
+.colaborations {
+    @include containerPages;
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        &-item {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            width: 50%;
+            .title {
+               display: flex;
+               align-items: center;
+               gap: 2rem;
+               margin-bottom: 1rem;
+               h3 {
+                  font-size: 1.3rem;
+                  font-weight: 500;
+                  i {
+                     color: $skyColor;
+                     margin-right: 0.5rem;
+                     font-size: 1.5rem;
+                  }
+               }
+               a {
+                  i {
+                     color: $linkColor;
+                     font-size: 1.4rem;
+                  }
+               }
+            }
+            .image {
+               width: 100%;
+               display: flex;
+               img {
+                   cursor: pointer;
+                   @extend %easeTransition;
+                   width: 50%;
+                   border: 1px solid transparent;
+                   &.reduce {
+                       width: 30%;
+                   }
+                  &:hover {
+                     opacity: 0.8;
+                     border: 1px solid #ccc;
+                  }
+               }
+            }
+            &:last-of-type {
+               border-bottom: none;
+            }
+         }
+    }
+}
+
+@media(max-width: $tabletH) {
+    .colaborations {
+       padding: 2rem 2rem 4rem 2rem;
+       .colaborations-list {
+           .colaborations-list-item {
+            width: 100%;
+              .title {
+                 h3 {
+                    font-size: 1.1rem;
+                    padding-right: 1rem;
+                    i {
+                       font-size: 1.3rem;
+                    }
+                 }
+              }
+              .image {
+                 img {
+                    width: 100%;
+                 }
+              }
+           }
+       }
+    }
+ }
+ 
+ @media(max-width: $mobileH) {
+    .colaborations {
+       padding: 2rem 1rem 4rem 1rem;
+       .colaborations-list {
+           .colaborations-list-item {
+              .title {
+                 h3 {
+                    font-size: 1rem;
+                    padding-right: 1rem;
+                    i {
+                       font-size: 1.1rem;
+                    }
+                 }
+                 a {
+                    i {
+                       font-size: 1.1rem;
+                    }
+                 }
+              }
+              .image {
+                 img {
+                    width: 100%;
+                 }
+              }
+           }
+       }
+    }
+ }

@@ -9,6 +9,7 @@ import { InterviewsComponent } from './pages/interviews/interviews.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { TitlePageComponent } from './components/title-page/title-page.component';
 import { MaterialModule } from '../material/material.module';
+import { ColaborationsComponent } from './pages/colaborations/colaborations.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { MaterialModule } from '../material/material.module';
     AwardsComponent,
     InterviewsComponent,
     ContactComponent,
-    TitlePageComponent
+    TitlePageComponent,
+    ColaborationsComponent
   ],
   imports: [
     CommonModule,

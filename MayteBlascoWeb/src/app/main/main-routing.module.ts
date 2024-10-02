@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { AwardsComponent } from './pages/awards/awards.component';
 import { InterviewsComponent } from './pages/interviews/interviews.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ColaborationsComponent } from './pages/colaborations/colaborations.component';
 
 const routes: Routes = [
   {
@@ -25,6 +25,10 @@ const routes: Routes = [
       {
         path: 'contact',
         component: ContactComponent
+      },
+      {
+        path: 'colaborations',
+        component: ColaborationsComponent
       },
       {
         path: '**',

@@ -32,3 +32,22 @@ export const interviewsInfo: InterviewItem[] = [
       url: 'https://cuentoscontigo.wordpress.com/2021/07/13/mayte-blasco-la-lluvia-suave/'
    }
 ];
+
+export const colaborationsInfo: InterviewItem[] = [
+   {
+      title: 'KOPEK. Revista literaria',
+      image: '/assets/images/kopec.png',
+      url: 'https://www.revistakopek.com/creacion/monedas-en-el-descampado-un-cuento-de-mayte-blasco/'
+   },
+   {
+      title: 'Carta local (FEMP)',
+      image: '/assets/images/femp.png',
+      url: 'https://issuu.com/femp/docs/carta_local_n_379_mayo_2024?fbclid=IwY2xjawFp4BJleHRuA2FlbQIxMAABHd5Svw5fWkUI570uRo7Xoxeik0ULfbRyo4AI_otc-vpawm62Z7p_sn2MiA_aem_dlvlbIg1bCLhgx-0VoM0pA'
+   },
+   {
+      title: 'Revista Murciana de Letras, 2: Librerías y Bibliotecas',
+      image: '/assets/images/revista-murciana.jfif',
+      url: 'https://x.com/Newcastleedic/status/1837508792252051675',
+      cssClass: 'reduce'
+   }
+];

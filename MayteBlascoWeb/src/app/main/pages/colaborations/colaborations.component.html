@@ -1,0 +1,21 @@
+<section class="colaborations">
+    <app-title-page
+      [icon]="'icon-users'"
+      [title]="'Colaboraciones'"
+   ></app-title-page>
+
+   <div class="colaborations-list">
+       <div class="colaborations-list-item" *ngFor="let colaboration of colaborationsList">
+        <div class="title">
+           <h3>
+              <i class="w-icon-pencil"></i>
+              {{ colaboration.title }}
+           </h3>
+           <a href="{{ colaboration.url }}" target="_blank" matTooltip="Visitar sitio web" matTooltipPosition="left"><i class="w-icon-share"></i></a>
+        </div>
+        <div class="image" (click)="goTo(colaboration.url)">
+           <img class="{{ colaboration?.cssClass }}" src="{{ colaboration.image }}" alt="Imagen">
+        </div>
+     </div>
+   </div>
+</section>

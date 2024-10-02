@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { interviewsInfo } from 'src/assets/data/interviews.data';
 import { InterviewItem } from '../../interfaces/interview.interface';
 
@@ -7,14 +7,11 @@ import { InterviewItem } from '../../interfaces/interview.interface';
   templateUrl: './interviews.component.html',
   styleUrls: ['./interviews.component.scss']
 })
-export class InterviewsComponent implements OnInit {
+export class InterviewsComponent {
 
   public interviewsList: InterviewItem[] = interviewsInfo;
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
   goTo(url: string): void {
     window.open(url, '_blank');
