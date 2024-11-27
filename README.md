@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
+## FTP data
+Servidor: ftp.onstatic-es.setupdns.net
+Usuario: mayteblasco
+Contraseña: MayteBlasco2022
+Directorio raíz: /public
+Puerto: 21
+
+## Nominalia data
+usuario: Mayte
+correo: elblogdemae@gmail.com
+password: Buyi-2014
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
