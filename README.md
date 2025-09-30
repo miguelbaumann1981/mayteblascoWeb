@@ -3,16 +3,16 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
 ## FTP data
-Servidor: ftp.onstatic-es.setupdns.net
-Usuario: mayteblasco
-Contraseña: MayteBlasco2022
-Directorio raíz: /public
-Puerto: 21
+* Servidor: ftp.onstatic-es.setupdns.net
+* Usuario: mayteblasco
+* Contraseña: MayteBlasco2022
+* Directorio raíz: /public
+* Puerto: 21
 
 ## Nominalia data
-usuario: Mayte
-correo: elblogdemae@gmail.com
-password: Buyi-2014
+* usuario: Mayte
+* correo: elblogdemae@gmail.com
+* password: Buyi-2014
 
 ## Development server
 

@@ -2,47 +2,53 @@
 
 .interviews {
    @include containerPages;
-   &-item {
-      margin-bottom: 2rem;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 1rem;
-      .title {
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         margin-bottom: 1rem;
-         h3 {
-            font-size: 1.3rem;
-            font-weight: 500;
-            i {
-               color: $skyColor;
-               margin-right: 0.5rem;
-               font-size: 1.5rem;
+   &-list {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      &-item {
+         margin-bottom: 2rem;
+         padding-bottom: 1rem;
+         width: 50%;
+         .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            h3 {
+               font-size: 1.3rem;
+               font-weight: 500;
+               i {
+                  color: $skyColor;
+                  margin-right: 0.5rem;
+                  font-size: 1.5rem;
+               }
+               a {
+                  cursor: pointer;
+                  color: inherit;
+                  &:hover {
+                     color:grey
+                  }
+               }
+            }
+            a {
+               i {
+                  color: $linkColor;
+                  font-size: 1.4rem;
+               }
             }
          }
-         a {
-            i {
-               color: $linkColor;
-               font-size: 1.4rem;
+         .image {
+            width: 100%;
+            display: flex;
+            img {
+               width: 30%;
+               border: 1px solid transparent;
             }
          }
-      }
-      .image {
-         width: 100%;
-         display: flex;
-         img {
-            cursor: pointer;
-            @extend %easeTransition;
-            width: 30%;
-            border: 1px solid transparent;
-            &:hover {
-               opacity: 0.8;
-               border: 1px solid #ccc;
-            }
+         &:last-of-type {
+            border-bottom: none;
          }
-      }
-      &:last-of-type {
-         border-bottom: none;
       }
    }
 }
@@ -50,19 +56,22 @@
 @media(max-width: $tabletH) {
    .interviews {
       padding: 2rem 2rem 4rem 2rem;
-      .interviews-item {
-         .title {
-            h3 {
-               font-size: 1.1rem;
-               padding-right: 1rem;
-               i {
-                  font-size: 1.3rem;
+      .interviews-list {
+         .interviews-list-item {
+            width: 100%;
+            .title {
+               h3 {
+                  font-size: 1.1rem;
+                  padding-right: 1rem;
+                  i {
+                     font-size: 1.3rem;
+                  }
                }
             }
-         }
-         .image {
-            img {
-               width: 50%;
+            .image {
+               img {
+                  width: 50%;
+               }
             }
          }
       }
@@ -72,24 +81,26 @@
 @media(max-width: $mobileH) {
    .interviews {
       padding: 2rem 1rem 4rem 1rem;
-      .interviews-item {
-         .title {
-            h3 {
-               font-size: 1rem;
-               padding-right: 1rem;
-               i {
-                  font-size: 1.1rem;
+      .interviews-list { 
+         .interviews-list-item {
+            .title {
+               h3 {
+                  font-size: 1rem;
+                  padding-right: 1rem;
+                  i {
+                     font-size: 1.1rem;
+                  }
+               }
+               a {
+                  i {
+                     font-size: 1.1rem;
+                  }
                }
             }
-            a {
-               i {
-                  font-size: 1.1rem;
+            .image {
+               img {
+                  width: 100%;
                }
-            }
-         }
-         .image {
-            img {
-               width: 100%;
             }
          }
       }

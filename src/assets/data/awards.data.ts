@@ -11,6 +11,12 @@ export const awardsInfo: AwardItem[] = [
 
 export const shortStoriesInfo: AwardItem[] = [
    {
+      title: 'Pronto llegarán los soldados',
+      description: 'Segundo premio del XXII Certamen Internacional de relatos cortos "Filando cuentos de mujer".',
+      url: 'https://www.lne.es/cuencas/2024/11/17/mujeres-llevan-concurso-relatos-les-111773322.html',
+      year: 2024
+   },
+   {
       title: 'Vida de una mucama',
       description: 'Finalista XIV Concurso Eurostars Hotel Company de Relatos Breves.',
       url: 'https://www.eurostarscultura.com/max-valero-gana-el-xiv-concurso-eurostars-hotel-company-de-relatos-breves/',

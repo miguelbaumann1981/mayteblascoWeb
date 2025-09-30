@@ -36,12 +36,20 @@ export const booksInformation: BookInfo[] = [
             url: 'https://www.ninalobaeditorial.es/la-mejor-familia-del-mundo-de-mayte-blasco/'
          },
          {
-            review: 'Reseña de Ovidio Parades',
+            review: 'Ovidio Parades',
             url: 'https://ovidioparades.blogspot.com/2024/04/la-mejor-familia-del-mundo.html?m=1'
          },
          {
-            review: 'Reseña de Rafalé Guadalmedina',
+            review: 'Rafalé Guadalmedina',
             url: 'https://rafaleguadalmedina.wordpress.com/2024/03/21/la-mejor-familia-del-mundo-mayte-blasco/'
+         },
+         {
+            review: 'Emma Prieto en Irredimibles',
+            url: 'https://irredimibles.com/las-lecturas-de-emma-junio-2025/'
+         },
+         {
+            review: 'Video-reseña de @lorena_books',
+            url: 'https://www.tiktok.com/@lorena_books_/video/7547588395652943126'
          }
       ],
       others: [
@@ -117,6 +125,14 @@ export const booksInformation: BookInfo[] = [
          {
             review: 'Jesús Castro Lago',
             url: 'https://eticadepo.blogspot.com/2023/09/jaulas-de-hormigon-mayte-blasco.html'
+         },
+         {
+            review: 'Un libro en las antípodas',
+            url: 'https://unlibroenlasantipodas.blogspot.com/2025/01/jaulas-de-hormigon-de-mayte-blasco.html?m=1'
+         },
+         {
+            review: 'Eva M. Medina',
+            url: 'https://evammedina.blogspot.com/2025/03/jaulas-de-hormigon-de-mayte-blasco.html?m=1'
          }
       ],
       othersArticles: [

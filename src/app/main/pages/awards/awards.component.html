@@ -5,25 +5,23 @@
    ></app-title-page>
 
    <h4>Premios a obra publicada</h4>
-   <div class="award-card" *ngFor="let award of awardsList">
+   <div class="award-card" *ngFor="let award of awardsList" (click)="openLink(award.url)">
       <div class="header">
          <div class="title">
             <span>{{ award.year }}</span>
             <h5>{{ award.title }}</h5>
          </div>
-         <a href="{{ award.url }}" target="_blank" matTooltip="Visitar sitio web" matTooltipPosition="left"><i class="w-icon-share"></i></a>
       </div>
       <p class="description">{{ award.description }}</p>
    </div>
 
    <h4 class="margin">Certámenes de microrrelato y relato corto</h4>
-   <div class="award-card" *ngFor="let shortStory of shortStoriesList">
+   <div class="award-card" *ngFor="let shortStory of shortStoriesList" (click)="openLink(shortStory.url)">
       <div class="header">
          <div class="title">
             <span>{{ shortStory.year }}</span>
             <h5>{{ shortStory.title }}</h5>
          </div>
-         <a *ngIf="shortStory.url" href="{{ shortStory.url }}" target="_blank" matTooltip="Visitar sitio web" matTooltipPosition="left"><i class="w-icon-share"></i></a>
       </div>
       <p class="description">{{ shortStory.description }}</p>
    </div>

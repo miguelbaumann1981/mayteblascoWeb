@@ -23,6 +23,13 @@
                      margin-right: 0.5rem;
                      font-size: 1.5rem;
                   }
+                  a {
+                     cursor: pointer;
+                     color: inherit;
+                     &:hover {
+                        color:grey
+                     }
+                  }
                }
                a {
                   i {
@@ -32,20 +39,10 @@
                }
             }
             .image {
-               width: 100%;
                display: flex;
                img {
-                   cursor: pointer;
-                   @extend %easeTransition;
-                   width: 50%;
+                   height: 300px;
                    border: 1px solid transparent;
-                   &.reduce {
-                       width: 30%;
-                   }
-                  &:hover {
-                     opacity: 0.8;
-                     border: 1px solid #ccc;
-                  }
                }
             }
             &:last-of-type {
@@ -70,11 +67,7 @@
                     }
                  }
               }
-              .image {
-                 img {
-                    width: 100%;
-                 }
-              }
+              
            }
        }
     }
@@ -99,11 +92,7 @@
                     }
                  }
               }
-              .image {
-                 img {
-                    width: 100%;
-                 }
-              }
+              
            }
        }
     }

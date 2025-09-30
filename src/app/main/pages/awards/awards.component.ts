@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { awardsInfo, shortStoriesInfo } from 'src/assets/data/awards.data';
 import { AwardItem } from '../../interfaces/awards.interface';
 
@@ -7,14 +7,15 @@ import { AwardItem } from '../../interfaces/awards.interface';
   templateUrl: './awards.component.html',
   styleUrls: ['./awards.component.scss']
 })
-export class AwardsComponent implements OnInit {
+export class AwardsComponent {
 
   public awardsList: AwardItem[] = awardsInfo;
   public shortStoriesList: AwardItem[] = shortStoriesInfo;
 
   constructor() { }
 
-  ngOnInit(): void {
+  openLink(url: string): void {
+    window.open(url, '_blank');
   }
 
 }

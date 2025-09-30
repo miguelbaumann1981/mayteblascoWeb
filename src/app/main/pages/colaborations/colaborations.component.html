@@ -9,11 +9,10 @@
         <div class="title">
            <h3>
               <i class="w-icon-pencil"></i>
-              {{ colaboration.title }}
+              <a href="{{ colaboration.url }}" target="_blank">{{ colaboration.title }}</a>
            </h3>
-           <a href="{{ colaboration.url }}" target="_blank" matTooltip="Visitar sitio web" matTooltipPosition="left"><i class="w-icon-share"></i></a>
         </div>
-        <div class="image" (click)="goTo(colaboration.url)">
+        <div class="image">
            <img class="{{ colaboration?.cssClass }}" src="{{ colaboration.image }}" alt="Imagen">
         </div>
      </div>
